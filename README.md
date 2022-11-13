@@ -24,5 +24,11 @@ For each project Im going to provide a README file with a detailed description
 <h3> A/B Testing </h3>
 <a href="https://github.com/egorkapot/Karpov-Analyst-Simulator/blob/main/AB_testing_Readme.md"> AB testing README </a>
 
+<h3> ETL Pipelines </h3>
+<a href="https://github.com/egorkapot/Karpov-Analyst-Simulator/blob/main/ETL_Readme.md"> ETL Pipelines README </a>
+
+<h3> Telegram Bot </h3>
+<a href="https://github.com/egorkapot/Karpov-Analyst-Simulator/blob/main/emakarov_report.py"> Telegram Bot README </a>
+
 
 
