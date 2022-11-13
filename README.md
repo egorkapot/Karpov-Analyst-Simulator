@@ -11,7 +11,7 @@ Karpov Analyst Simulator course is a high popular course for the Data Analysts j
 5. Telegram report bot
 6. Automation of alerts
 
-<h3> Here I would like to share with you some of my homeworks in this course. They contain the following:
+<h3> Here I would like to share with you some of my homeworks in this course. They contain the following: </h3>
 
 1. <b>Conducting A/A and A/B testing using Poisson bootstrap, Mann-Whitney test and t-test and made recommendations for the introduction of a new algorithm</b>
 2. <b>Building ETL pipeline in Airflow</b>
