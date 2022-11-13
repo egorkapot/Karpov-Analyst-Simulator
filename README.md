@@ -19,8 +19,9 @@ Karpov Analyst Simulator course is a high popular course for the Data Analysts j
 3. Creating a Telegram bot for collecting and sending reports and automating its work using Airflow
 4. Setting up search automation and anomaly alerts for the main metrics</b>
 
-For each project Im going to provide a detailed description
+For each project Im going to provide a README file with a detailed description
 
+<h3> A/B Testing </h3>
 <a href="https://github.com/egorkapot/Karpov-Analyst-Simulator/blob/main/AB_testing_Readme.md"> AB testing README </a>
 
 
