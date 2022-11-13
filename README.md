@@ -13,10 +13,12 @@ Karpov Analyst Simulator course is a high popular course for the Data Analysts j
 
 <h3> Here I would like to share with you some of my homeworks in this course. They contain the following: </h3>
 
-1. <b>Conducting A/A and A/B testing using Poisson bootstrap, Mann-Whitney test and t-test and made recommendations for the introduction of a new algorithm
+<b>
+1. Conducting A/A and A/B testing using Poisson bootstrap, Mann-Whitney test and t-test and made recommendations for the introduction of a new algorithm
 2. Building ETL pipeline in Airflow
 3. Creating a Telegram bot for collecting and sending reports and automating its work using Airflow
-4. Setting up search automation and anomaly alerts for the main metrics</b>
+4. Setting up search automation and anomaly alerts for the main metrics
+</b>
 
 For each project Im going to provide a detailed description
 
