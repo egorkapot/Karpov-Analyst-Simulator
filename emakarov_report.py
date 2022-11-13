@@ -13,7 +13,7 @@ import matplotlib.gridspec as gridspec
 from airflow.decorators import dag, task
 from airflow.operators.python import get_current_context
 
-my_token = '5368989134:AAF2Y7F-S0X95XYZnGFO7u123-AqZZmxFTc' # тут нужно заменить на токен вашего бота
+my_token = 'use your token' # тут нужно заменить на токен вашего бота
 
 bot = telegram.Bot(token=my_token) # получаем доступ
 
@@ -21,9 +21,6 @@ bot = telegram.Bot(token=my_token) # получаем доступ
 #updates = bot.getUpdates()
 #print(updates[-1])
 
-chat_id = '-769752736'
-maxim_chat_id = '591275478'
-my_chat_id = '798247808'
 
 #default args это необходимые параметры для запуска тасков. Указываются в обертке дага
 default_args = {
@@ -38,17 +35,16 @@ default_args = {
 #Интервал запуска DAG
 schedule_interval = '0 11 * * *'
 #connection
-connection_simulator = {'host': 'https://clickhouse.lab.karpov.courses',
-                      'database':'simulator_20220920',
-                      'user':'student',
-                    'password':'dpo_python_2020'
+connection_simulator = {'host': 'host',
+                      'database':'database',
+                      'user':'user',
+                    'password':'password'
                      }
 
-connection_test = {'host':'https://clickhouse.lab.karpov.courses',
-                   'database': 'test', 
-                  'user':'student-rw', 
-                  'password':'656e2b0c9c'
-
+connection_test = {'host': 'host',
+                      'database':'database',
+                      'user':'user',
+                    'password':'password'
 }
 
 def ch_get_df(query='SELECT 1', connection=connection_simulator):
