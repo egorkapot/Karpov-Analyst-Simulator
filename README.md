@@ -30,5 +30,8 @@ For each project Im going to provide a README file with a detailed description
 <h3> Telegram Bot </h3>
 <a href="https://github.com/egorkapot/Karpov-Analyst-Simulator/blob/main/emakarov_report.py"> Telegram Bot README </a>
 
+<h3> Automation Alerts </h3>
+<a href="https://github.com/egorkapot/Karpov-Analyst-Simulator/blob/main/Automation_Alerts_Readme.md"> Telegram Bot README </a>
+
 
 
