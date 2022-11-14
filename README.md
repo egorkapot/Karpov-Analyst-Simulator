@@ -2,7 +2,7 @@
 
 <h1> Description of the project </h1>
 
-Karpov Analyst Simulator course is a high popular course for the Data Analysts junior-middle level. It covers a lot of important aspects of Data Analysis notably: 
+Karpov Analyst Simulator course is a highly popular course for the Data Analysts junior-middle level. It covers a lot of important aspects of Data Analysis notably: 
 
 1. Building Dashboards
 2. Calculating product metrics
