@@ -11,7 +11,7 @@ from airflow.decorators import dag, task
 from airflow.operators.python import get_current_context
 
 
-my_token = '5368989134:AAF2Y7F-S0X95XYZnGFO7u123-AqZZmxFTc' # тут нужно заменить на токен вашего бота
+my_token = 'YOUR_TOKEN' # тут нужно заменить на токен вашего бота
 
 bot = telegram.Bot(token=my_token) # получаем доступ
 
@@ -19,12 +19,10 @@ bot = telegram.Bot(token=my_token) # получаем доступ
 #updates = bot.getUpdates()
 #print(updates[-1])
 
-chat_id = '-769752736'
-my_chat_id = '798247808'
 
 #default args это необходимые параметры для запуска тасков. Указываются в обертке дага
 default_args = {
-    'owner': 'e.makarov', # Владелец операции 
+    'owner': 'owner', # Владелец операции 
     'depends_on_past': False, # Зависимость от прошлых запусков
     'retries':10, # Кол-во попыток выполнить DAG
     'retry_delay':timedelta(minutes=5), # Промежуток между перезапусками
